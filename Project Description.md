@@ -16,11 +16,11 @@ In this phase, we meticulously examined the dataset:
 
 Feature engineering is pivotal for shaping the dataset for optimal model performance. This step involves:
 
-#### Outlier Handling
+#### Outlier Handling:-
 
 Identified and addressed outliers using the Interquartile Range (IQR) method. Outliers were meticulously examined and replaced to ensure robust model training.
 
-#### Standardization in PCA
+#### Standardization in PCA:-
 Standardized data using `StandardScaler()` after outlier handling.
 
 **Equal Scaling:** Ensures consistent scale among features, preventing dominance by larger-scaled variables.
@@ -32,12 +32,15 @@ Standardized data using `StandardScaler()` after outlier handling.
 **Interpretability:** Enhances interpretability by providing consistent scaling, making PCA loadings more meaningful.
 
 ## Step 5: model training
-1.The dataset was divided into training and testing sets using the `train_test_split` function. 
+1.The dataset was divided into training and testing sets using the `train_test_split` function.
+
 2.The PCA model was then trained for dimensionality reduction.
+
 3.PCA, a powerful dimensionality reduction technique, was applied to the standardized data. This step not only enhances model efficiency but also provides insights into the underlying patterns of the dataset.
 
 ####  PCA and Logistic Regression Implementation
 1.The `PCA_1` model with `n_components=2` was employed. The transformed data for both training and testing sets was obtained using the `fit_transform` method. The explained variance ratio provided insights into the significance of each principal component.
+
 2.The PCA model was then trained for dimensionality reduction. The implementation of Logistic Regression followed, as the dataset is inherently a classification dataset.
 
 ## Step 6: Model Evaluation
@@ -48,17 +51,17 @@ For the testing data, a solitary mispredicted value emerged in the second class,
 This meticulous examination of the confusion matrix provides insights into the model's ability to predict values within the same class and identifies instances of mispredictions.
 
 #### Confusion Matrix for Training Data
-***
+
  [[41  0  0]
  [ 1 48  1]
  [ 0  0 33]]
- ***
+ 
 #### Confusion Matrix for Training Data
-***
+
  [[17  1  0]
  [ 1 20  0]
  [ 0  0 15]]
- ***
+ 
 
 ## Step 7: Conclusion
 The journey through the Chemical Composition Analysis of Wines has been a captivating exploration of the intricate world of viniculture. From data gathering to model evaluation, each step has unraveled the secrets hidden in the chemical makeup of wines. The application of PCA and Logistic Regression has not only classified wines accurately but has also provided visual insights into the classification boundaries.
