@@ -52,15 +52,12 @@ This meticulous examination of the confusion matrix provides insights into the m
 
 #### Confusion Matrix for Training Data
 
- [[41  0  0]
- [ 1 48  1]
- [ 0  0 33]]
+![Screenshot 2023-12-27 130822](https://github.com/Yogendra-Wadkar/Autos-Dataset-Using-Decision-Tree-Algorithm/assets/134367735/8f3fd3f9-1ee8-42df-a310-549545b1695e)
  
 #### Confusion Matrix for Training Data
 
- [[17  1  0]
- [ 1 20  0]
- [ 0  0 15]]
+![Screenshot 2023-12-27 130803](https://github.com/Yogendra-Wadkar/Autos-Dataset-Using-Decision-Tree-Algorithm/assets/134367735/5f1bdd49-5c5a-4c62-ba45-dae129501637)
+
  
 
 ## Step 7: Conclusion
