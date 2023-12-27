@@ -16,11 +16,11 @@ In this phase, we meticulously examined the dataset:
 
 Feature engineering is pivotal for shaping the dataset for optimal model performance. This step involves:
 
-#### Outlier Handling:-
+#### **Outlier Handling:-**
 
 Identified and addressed outliers using the Interquartile Range (IQR) method. Outliers were meticulously examined and replaced to ensure robust model training.
 
-#### Standardization in PCA:-
+#### **Standardization in PCA:-**
 Standardized data using `StandardScaler()` after outlier handling.
 
 **Equal Scaling:** Ensures consistent scale among features, preventing dominance by larger-scaled variables.
@@ -38,7 +38,7 @@ Standardized data using `StandardScaler()` after outlier handling.
 
 3.PCA, a powerful dimensionality reduction technique, was applied to the standardized data. This step not only enhances model efficiency but also provides insights into the underlying patterns of the dataset.
 
-####  PCA and Logistic Regression Implementation
+####  **PCA and Logistic Regression Implementation:-**
 1.The `PCA_1` model with `n_components=2` was employed. The transformed data for both training and testing sets was obtained using the `fit_transform` method. The explained variance ratio provided insights into the significance of each principal component.
 
 2.The PCA model was then trained for dimensionality reduction. The implementation of Logistic Regression followed, as the dataset is inherently a classification dataset.
