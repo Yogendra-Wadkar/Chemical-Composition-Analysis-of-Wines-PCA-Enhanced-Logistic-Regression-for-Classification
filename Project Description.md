@@ -10,6 +10,7 @@ The dataset, sourced from Kaggle, is in CSV format with approximately 200 rows a
 In this phase, we meticulously examined the dataset:
 - Checked for information about the table and data types.
 - Explored null values and utilized descriptive statistics.
+- Statistical Information: Calculate mean, median, and other descriptive statistics (e.g., standard deviation) using functions describe() to gain insights into data characteristics.
 
 ## Step 4: Feature Engineering
 
