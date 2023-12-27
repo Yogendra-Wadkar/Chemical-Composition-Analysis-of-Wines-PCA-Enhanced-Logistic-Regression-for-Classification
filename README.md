@@ -3,6 +3,9 @@
 
 Welcome to the Chemical Composition Analysis of Wines project! 🍇✨ In this repository, we embark on a journey to decipher the chemical fingerprints of wines using advanced data analytics.
 
+![download](https://github.com/Yogendra-Wadkar/Chemical-Composition-Analysis-of-Wines-PCA-Enhanced-Logistic-Regression-for-Classification/assets/134367735/c1743ba6-2ffc-434f-a835-17fd02b73223)
+
+
 ## Introduction
 From the rolling vineyards to your glass, the world of wines is a rich tapestry of flavors, aromas, and chemical intricacies. Ever wondered what makes a wine truly exceptional? Join us on this exploration as we delve into the fascinating realm of viniculture, leveraging data science to uncover the hidden patterns in the chemical composition of wines.
 
